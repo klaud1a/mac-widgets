@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85241EC2E591872005D68C5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241EB2E591872005D68C5 /* WidgetKit.framework */; };
+		C85241EE2E591872005D68C5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241ED2E591872005D68C5 /* SwiftUI.framework */; };
+		C85241FC2E591874005D68C5 /* TimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C85241E92E591872005D68C5 /* TimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C85242072E591894005D68C5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241EB2E591872005D68C5 /* WidgetKit.framework */; };
+		C85242082E591894005D68C5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241ED2E591872005D68C5 /* SwiftUI.framework */; };
+		C85242162E591896005D68C5 /* TodoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C85242062E591894005D68C5 /* TodoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C85242202E5918AF005D68C5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241EB2E591872005D68C5 /* WidgetKit.framework */; };
+		C85242212E5918AF005D68C5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85241ED2E591872005D68C5 /* SwiftUI.framework */; };
+		C852422F2E5918B1005D68C5 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C852421F2E5918AF005D68C5 /* CalendarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C85241C92E591810005D68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85241AA2E59180E005D68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85241B12E59180E005D68C5;
+			remoteInfo = MacWidgets;
+		};
+		C85241D32E591810005D68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85241AA2E59180E005D68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85241B12E59180E005D68C5;
+			remoteInfo = MacWidgets;
+		};
+		C85241FA2E591874005D68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85241AA2E59180E005D68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85241E82E591872005D68C5;
+			remoteInfo = TimeWidgetExtension;
+		};
+		C85242142E591896005D68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85241AA2E59180E005D68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85242052E591894005D68C5;
+			remoteInfo = TodoWidgetExtension;
+		};
+		C852422D2E5918B1005D68C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85241AA2E59180E005D68C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C852421E2E5918AF005D68C5;
+			remoteInfo = CalendarWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C85242012E591874005D68C5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C85242162E591896005D68C5 /* TodoWidgetExtension.appex in Embed Foundation Extensions */,
+				C85241FC2E591874005D68C5 /* TimeWidgetExtension.appex in Embed Foundation Extensions */,
+				C852422F2E5918B1005D68C5 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C85241B22E59180E005D68C5 /* MacWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85241C82E591810005D68C5 /* MacWidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacWidgetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85241D22E591810005D68C5 /* MacWidgetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacWidgetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85241E92E591872005D68C5 /* TimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85241EB2E591872005D68C5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C85241ED2E591872005D68C5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C85242062E591894005D68C5 /* TodoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C852421F2E5918AF005D68C5 /* CalendarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalendarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C85241FD2E591874005D68C5 /* Exceptions for "TimeWidget" folder in "TimeWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C85241E82E591872005D68C5 /* TimeWidgetExtension */;
+		};
+		C85242172E591896005D68C5 /* Exceptions for "TodoWidget" folder in "TodoWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C85242052E591894005D68C5 /* TodoWidgetExtension */;
+		};
+		C85242302E5918B1005D68C5 /* Exceptions for "CalendarWidget" folder in "CalendarWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C852421E2E5918AF005D68C5 /* CalendarWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C85241B42E59180E005D68C5 /* MacWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacWidgets;
+			sourceTree = "<group>";
+		};
+		C85241CB2E591810005D68C5 /* MacWidgetsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacWidgetsTests;
+			sourceTree = "<group>";
+		};
+		C85241D52E591810005D68C5 /* MacWidgetsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacWidgetsUITests;
+			sourceTree = "<group>";
+		};
+		C85241EF2E591872005D68C5 /* TimeWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C85241FD2E591874005D68C5 /* Exceptions for "TimeWidget" folder in "TimeWidgetExtension" target */,
+			);
+			path = TimeWidget;
+			sourceTree = "<group>";
+		};
+		C85242092E591894005D68C5 /* TodoWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C85242172E591896005D68C5 /* Exceptions for "TodoWidget" folder in "TodoWidgetExtension" target */,
+			);
+			path = TodoWidget;
+			sourceTree = "<group>";
+		};
+		C85242222E5918B0005D68C5 /* CalendarWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C85242302E5918B1005D68C5 /* Exceptions for "CalendarWidget" folder in "CalendarWidgetExtension" target */,
+			);
+			path = CalendarWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85241AF2E59180E005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241C52E591810005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241CF2E591810005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241E62E591872005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85241EE2E591872005D68C5 /* SwiftUI.framework in Frameworks */,
+				C85241EC2E591872005D68C5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85242032E591894005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85242082E591894005D68C5 /* SwiftUI.framework in Frameworks */,
+				C85242072E591894005D68C5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C852421C2E5918AF005D68C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85242212E5918AF005D68C5 /* SwiftUI.framework in Frameworks */,
+				C85242202E5918AF005D68C5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85241A92E59180E005D68C5 = {
+			isa = PBXGroup;
+			children = (
+				C85241B42E59180E005D68C5 /* MacWidgets */,
+				C85241CB2E591810005D68C5 /* MacWidgetsTests */,
+				C85241D52E591810005D68C5 /* MacWidgetsUITests */,
+				C85241EF2E591872005D68C5 /* TimeWidget */,
+				C85242092E591894005D68C5 /* TodoWidget */,
+				C85242222E5918B0005D68C5 /* CalendarWidget */,
+				C85241EA2E591872005D68C5 /* Frameworks */,
+				C85241B32E59180E005D68C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85241B32E59180E005D68C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C85241B22E59180E005D68C5 /* MacWidgets.app */,
+				C85241C82E591810005D68C5 /* MacWidgetsTests.xctest */,
+				C85241D22E591810005D68C5 /* MacWidgetsUITests.xctest */,
+				C85241E92E591872005D68C5 /* TimeWidgetExtension.appex */,
+				C85242062E591894005D68C5 /* TodoWidgetExtension.appex */,
+				C852421F2E5918AF005D68C5 /* CalendarWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85241EA2E591872005D68C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C85241EB2E591872005D68C5 /* WidgetKit.framework */,
+				C85241ED2E591872005D68C5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C85241B12E59180E005D68C5 /* MacWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85241DC2E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgets" */;
+			buildPhases = (
+				C85241AE2E59180E005D68C5 /* Sources */,
+				C85241AF2E59180E005D68C5 /* Frameworks */,
+				C85241B02E59180E005D68C5 /* Resources */,
+				C85242012E591874005D68C5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85241FB2E591874005D68C5 /* PBXTargetDependency */,
+				C85242152E591896005D68C5 /* PBXTargetDependency */,
+				C852422E2E5918B1005D68C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C85241B42E59180E005D68C5 /* MacWidgets */,
+			);
+			name = MacWidgets;
+			packageProductDependencies = (
+			);
+			productName = MacWidgets;
+			productReference = C85241B22E59180E005D68C5 /* MacWidgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C85241C72E591810005D68C5 /* MacWidgetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85241DF2E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgetsTests" */;
+			buildPhases = (
+				C85241C42E591810005D68C5 /* Sources */,
+				C85241C52E591810005D68C5 /* Frameworks */,
+				C85241C62E591810005D68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85241CA2E591810005D68C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C85241CB2E591810005D68C5 /* MacWidgetsTests */,
+			);
+			name = MacWidgetsTests;
+			packageProductDependencies = (
+			);
+			productName = MacWidgetsTests;
+			productReference = C85241C82E591810005D68C5 /* MacWidgetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C85241D12E591810005D68C5 /* MacWidgetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85241E22E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgetsUITests" */;
+			buildPhases = (
+				C85241CE2E591810005D68C5 /* Sources */,
+				C85241CF2E591810005D68C5 /* Frameworks */,
+				C85241D02E591810005D68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85241D42E591810005D68C5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C85241D52E591810005D68C5 /* MacWidgetsUITests */,
+			);
+			name = MacWidgetsUITests;
+			packageProductDependencies = (
+			);
+			productName = MacWidgetsUITests;
+			productReference = C85241D22E591810005D68C5 /* MacWidgetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C85241E82E591872005D68C5 /* TimeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85241FE2E591874005D68C5 /* Build configuration list for PBXNativeTarget "TimeWidgetExtension" */;
+			buildPhases = (
+				C85241E52E591872005D68C5 /* Sources */,
+				C85241E62E591872005D68C5 /* Frameworks */,
+				C85241E72E591872005D68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C85241EF2E591872005D68C5 /* TimeWidget */,
+			);
+			name = TimeWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TimeWidgetExtension;
+			productReference = C85241E92E591872005D68C5 /* TimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C85242052E591894005D68C5 /* TodoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85242182E591896005D68C5 /* Build configuration list for PBXNativeTarget "TodoWidgetExtension" */;
+			buildPhases = (
+				C85242022E591894005D68C5 /* Sources */,
+				C85242032E591894005D68C5 /* Frameworks */,
+				C85242042E591894005D68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C85242092E591894005D68C5 /* TodoWidget */,
+			);
+			name = TodoWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TodoWidgetExtension;
+			productReference = C85242062E591894005D68C5 /* TodoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C852421E2E5918AF005D68C5 /* CalendarWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85242312E5918B1005D68C5 /* Build configuration list for PBXNativeTarget "CalendarWidgetExtension" */;
+			buildPhases = (
+				C852421B2E5918AF005D68C5 /* Sources */,
+				C852421C2E5918AF005D68C5 /* Frameworks */,
+				C852421D2E5918AF005D68C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C85242222E5918B0005D68C5 /* CalendarWidget */,
+			);
+			name = CalendarWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = CalendarWidgetExtension;
+			productReference = C852421F2E5918AF005D68C5 /* CalendarWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85241AA2E59180E005D68C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C85241B12E59180E005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C85241C72E591810005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C85241B12E59180E005D68C5;
+					};
+					C85241D12E591810005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C85241B12E59180E005D68C5;
+					};
+					C85241E82E591872005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C85242052E591894005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C852421E2E5918AF005D68C5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C85241AD2E59180E005D68C5 /* Build configuration list for PBXProject "MacWidgets" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85241A92E59180E005D68C5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C85241B32E59180E005D68C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C85241B12E59180E005D68C5 /* MacWidgets */,
+				C85241C72E591810005D68C5 /* MacWidgetsTests */,
+				C85241D12E591810005D68C5 /* MacWidgetsUITests */,
+				C85241E82E591872005D68C5 /* TimeWidgetExtension */,
+				C85242052E591894005D68C5 /* TodoWidgetExtension */,
+				C852421E2E5918AF005D68C5 /* CalendarWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C85241B02E59180E005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241C62E591810005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241D02E591810005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241E72E591872005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85242042E591894005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C852421D2E5918AF005D68C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C85241AE2E59180E005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241C42E591810005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241CE2E591810005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85241E52E591872005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85242022E591894005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C852421B2E5918AF005D68C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C85241CA2E591810005D68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85241B12E59180E005D68C5 /* MacWidgets */;
+			targetProxy = C85241C92E591810005D68C5 /* PBXContainerItemProxy */;
+		};
+		C85241D42E591810005D68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85241B12E59180E005D68C5 /* MacWidgets */;
+			targetProxy = C85241D32E591810005D68C5 /* PBXContainerItemProxy */;
+		};
+		C85241FB2E591874005D68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85241E82E591872005D68C5 /* TimeWidgetExtension */;
+			targetProxy = C85241FA2E591874005D68C5 /* PBXContainerItemProxy */;
+		};
+		C85242152E591896005D68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85242052E591894005D68C5 /* TodoWidgetExtension */;
+			targetProxy = C85242142E591896005D68C5 /* PBXContainerItemProxy */;
+		};
+		C852422E2E5918B1005D68C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C852421E2E5918AF005D68C5 /* CalendarWidgetExtension */;
+			targetProxy = C852422D2E5918B1005D68C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C85241DA2E591810005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C85241DB2E591810005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C85241DD2E591810005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacWidgets/MacWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacWidgets/Preview Content\"";
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C85241DE2E591810005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacWidgets/MacWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacWidgets/Preview Content\"";
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C85241E02E591810005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacWidgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacWidgets";
+			};
+			name = Debug;
+		};
+		C85241E12E591810005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacWidgets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacWidgets";
+			};
+			name = Release;
+		};
+		C85241E32E591810005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacWidgets;
+			};
+			name = Debug;
+		};
+		C85241E42E591810005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacWidgets;
+			};
+			name = Release;
+		};
+		C85241FF2E591874005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TimeWidget/TimeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C85242002E591874005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TimeWidget/TimeWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.TimeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C85242192E591896005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TodoWidget/TodoWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.TodoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C852421A2E591896005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TodoWidget/TodoWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.TodoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C85242322E5918B1005D68C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CalendarWidget/CalendarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.CalendarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C85242332E5918B1005D68C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CalendarWidget/CalendarWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3C8JQH92B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CalendarWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klaudialalova.MacWidgets.CalendarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C85241AD2E59180E005D68C5 /* Build configuration list for PBXProject "MacWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85241DA2E591810005D68C5 /* Debug */,
+				C85241DB2E591810005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85241DC2E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85241DD2E591810005D68C5 /* Debug */,
+				C85241DE2E591810005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85241DF2E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85241E02E591810005D68C5 /* Debug */,
+				C85241E12E591810005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85241E22E591810005D68C5 /* Build configuration list for PBXNativeTarget "MacWidgetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85241E32E591810005D68C5 /* Debug */,
+				C85241E42E591810005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85241FE2E591874005D68C5 /* Build configuration list for PBXNativeTarget "TimeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85241FF2E591874005D68C5 /* Debug */,
+				C85242002E591874005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85242182E591896005D68C5 /* Build configuration list for PBXNativeTarget "TodoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85242192E591896005D68C5 /* Debug */,
+				C852421A2E591896005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85242312E5918B1005D68C5 /* Build configuration list for PBXNativeTarget "CalendarWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85242322E5918B1005D68C5 /* Debug */,
+				C85242332E5918B1005D68C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C85241AA2E59180E005D68C5 /* Project object */;
+}
